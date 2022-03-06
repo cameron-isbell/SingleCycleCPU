@@ -1,0 +1,43 @@
+id_signExtend -> ID/EX
+id_writeAddr -> MEM/WB (name on pdf are swapped, MEM/WB and EX/MEM should be switched, this txt assumes correct position)
+id_readAddr1, 2 -> nowhere
+id_regDst -> nowhere (idk what this even does)
+s_regWr -> MEM/WB
+cu_ALUSrc -> ID/EX
+cu_beq -> EX/MEM
+cu_bne -> EX/MEM
+s_DMemWr -> EX/MEM
+cu_ALUCtrl -> ID/EX
+id_toShift -> ID/EX
+id_upper -> ID/EX
+id_vShift -> ID/EX
+id_shift -> ID/EX
+id_shiftRight -> ID/EX
+cu_MemToReg -> MEM/WB
+cu_jump -> EX/MEM
+id_jal -> EX/MEM
+id_jr -> EX/MEM
+
+
+ID/EX
+id_signExtend 	y
+cu_ALUSrc 	y
+cu_ALUCtrl	y
+id_toShift	y
+id_vShift	y
+id_shift	y
+id_upper	y
+id_shiftRight	y
+
+EX/MEM
+id_jr
+id_jal
+cu_jump
+cu_beq
+cu_bne
+s_DMemWr
+
+MEM/WB
+s_regWr
+id_writeAddr
+cu_MemToReg

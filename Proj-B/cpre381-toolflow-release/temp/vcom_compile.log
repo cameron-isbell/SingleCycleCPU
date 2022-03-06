@@ -1,0 +1,99 @@
+Model Technology ModelSim SE-64 vcom 2020.2 Compiler 2020.04 Apr 19 2020
+Start time: 17:07:10 on Nov 11,2020
+vcom -2008 -work ModelSimWork/work ModelSimWork/src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add_sub
+-- Compiling architecture structure of add_sub
+-- Compiling entity add_sub_1bit
+-- Compiling architecture structure of add_sub_1bit
+-- Compiling entity ALU1bit
+-- Compiling architecture structural of ALU1bit
+-- Compiling entity ALU_32b
+-- Compiling architecture structure of ALU_32b
+-- Compiling entity ALU_32b_shift
+-- Compiling architecture structure of ALU_32b_shift
+-- Compiling entity ALU_Control
+-- Compiling architecture dataflow of ALU_Control
+-- Compiling entity ALU_overflow
+-- Compiling architecture structure of ALU_overflow
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling package vectorArray
+-- Loading package NUMERIC_STD
+-- Loading package vectorArray
+-- Compiling entity barrel_shift
+-- Compiling architecture structure of barrel_shift
+-- Compiling entity check_equivalent
+-- Compiling architecture dataflow of check_equivalent
+-- Compiling entity control_Unit
+-- Compiling architecture dataflow of control_Unit
+-- Compiling entity decoder_5to32
+-- Compiling architecture structure of decoder_5to32
+-- Compiling entity dffTrue
+-- Compiling architecture mixed of dffTrue
+-- Compiling entity full_adder_struct_nbit
+-- Compiling architecture structure of full_adder_struct_nbit
+-- Compiling entity funct_decrypt
+-- Compiling architecture dataflow of funct_decrypt
+-- Compiling entity instruction_decoder
+-- Compiling architecture structure of instruction_decoder
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity mux2_dataflow
+-- Compiling architecture dataflow of mux2_dataflow
+-- Compiling entity mux2_struct
+-- Compiling architecture structure of mux2_struct
+-- Compiling entity Mux32to1
+-- Compiling architecture dataflow of Mux32to1
+-- Compiling entity mux8to1
+-- Compiling architecture structural of mux8to1
+-- Compiling entity nandg2
+-- Compiling architecture dataflow of nandg2
+-- Compiling entity NMux
+-- Compiling architecture structural of NMux
+-- Compiling entity norg2
+-- Compiling architecture dataflow of norg2
+-- Compiling entity ones_comp_p2
+-- Compiling architecture behavior of ones_comp_p2
+-- Compiling entity opcode_decrypt
+-- Compiling architecture dataflow of opcode_decrypt
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity or_32b
+-- Compiling architecture structure of or_32b
+-- Compiling entity reg_file_2out
+-- Compiling architecture structure of reg_file_2out
+-- Compiling entity reg_nbit
+-- Compiling architecture structure of reg_nbit
+-- Compiling entity set_less_than
+-- Compiling architecture structure of set_less_than
+-- Compiling entity shift1
+-- Compiling architecture dataflow of shift1
+-- Compiling entity sign_extender_16to32
+-- Compiling architecture dataflow of sign_extender_16to32
+-- Compiling entity SingleCycleProcessor
+-- Compiling architecture structure of SingleCycleProcessor
+-- Compiling entity Structural2Mux
+-- Compiling architecture structure of Structural2Mux
+-- Compiling entity tb_instructionDecoder
+-- Compiling architecture behavior of tb_instructionDecoder
+-- Compiling entity tb_instructionDecoderAdvanced
+-- Compiling architecture behavior of tb_instructionDecoderAdvanced
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb_SimplifiedMIPSProcessor
+-- Compiling architecture mixed of tb_SimplifiedMIPSProcessor
+-- Compiling entity tb_SingleCycleProcessor
+-- Compiling architecture testbench of tb_SingleCycleProcessor
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity zero_extender_16to32
+-- Compiling architecture dataflow of zero_extender_16to32
+End time: 17:07:11 on Nov 11,2020, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

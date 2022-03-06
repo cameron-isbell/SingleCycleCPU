@@ -1,0 +1,55 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ALU1bit.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ALU_32b.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ALU_32b_shift.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ALU_Control.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ALU_overflow.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/Mux32to1.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/NMux.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/SingleCycleProcessor.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/Structural2Mux.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/add_sub.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/andg2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/barrel_shift.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/control_Unit.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/decoder_5to32.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/dff.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/full_adder_struct_nbit.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/funct_decrypt.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/instruction_decoder.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/invg.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/mem.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/mux2_dataflow.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/mux2_struct.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/mux8to1.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/nandg2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/norg2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/ones_comp_p2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/opcode_decrypt.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/or_32b.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/org2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/reg_file_2out.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/reg_nbit.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/set_less_than.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/shift1.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/sign_extender_16to32.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/tb_SingleCycleProcessor.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/tb_instructionDecoder.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/tb_instructionDecoderAdvanced.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/xorg2.vhd"
+set_global_assignment -name VHDL_FILE "U:/CPRE381/cpre381-toolflow-release/ModelSimWork/src/zero_extender_16to32.vhd"
